@@ -1,0 +1,29 @@
+.movie {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 12px; /* 간격 줄이기 */
+  cursor: pointer;
+  position: relative; /* 호버 효과를 위한 기준점 */
+}
+
+.movie img {
+  width: 100%; /* max-width 대신 width 사용 */
+  height: 100%;
+  object-fit: cover; /* 이미지가 잘리지 않고 꽉 차도록 */
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid var(--border-color);
+}
+
+.movie:hover img {
+  transform: scale(1.05); /* 부드럽게 커지는 효과 */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(229, 9, 20, 0.4); /* 그림자와 네온 효과 */
+  opacity: 1;
+}
+
+.movie a {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 5px;
+}

@@ -1,0 +1,33 @@
+.nav {
+  /* 기존 스타일 대신 아래 스타일 적용 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.8); /* 반투명 배경 */
+  backdrop-filter: blur(10px); /* 블러 효과로 세련미 추가 */
+  padding: 20px 5%; /* 좌우 여백 추가 */
+  z-index: 10;
+  border-bottom: 1px solid var(--border-color);
+  box-sizing: border-box; /* padding이 width에 포함되도록 설정 */
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  align-items: center;
+  gap: 30px; /* 간격 조정 */
+  max-width: 1200px;
+  margin: 0;
+}
+
+.nav ul li {
+  list-style: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.nav ul li:hover {
+  opacity: 0.7;
+  transform: none; /* 기존 scale 효과 제거 */
+}
