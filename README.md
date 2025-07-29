@@ -1,13 +1,13 @@
 <div align="center">
 
-  ![header](https://capsule-render.vercel.app/api?type=waving&color=4078c0&height=180&section=header&text=movieapp-nextjs&fontSize=45&animation=fadeIn&fontAlignY=38&desc=yonghun16&descAlignY=55&descAlign=85)
+  ![header](https://capsule-render.vercel.app/api?type=waving&color=4078c0&height=180&section=header&text=Movie-App-Nextjs&fontSize=45&animation=fadeIn&fontAlignY=38&desc=yonghun16&descAlignY=55&descAlign=85)
   <a href="https://movieapp-nextjs-p9t9.vercel.app/"><img src="https://github.com/yonghun16/movieapp-nextjs/blob/main/preview.gif?raw=true" width=800px /></a>
 	
 </div>
 
 </br>
 
-- **Movie APP - NextJS**
+- **Movie App - NextJS**
 - Single-page
 
 
